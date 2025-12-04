@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>VOLE MOTO — Очікувані Поставки</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+/* Фон */
+html, body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family:Arial, sans-serif;
+
+    background: linear-gradient(
+        to right,
+        #e4ffbf 0%,
+        #e4ffbf 12%,
+        #ffffff 50%,
+        #e4ffbf 88%,
+        #e4ffbf 100%
+    );
+}
+
+/* Верхний бар */
+.topbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+
+    background:#e8ffe8;
+    border-bottom:2px solid #17a317;
+    padding:10px 0;
+    text-align:center;
+
+    font-size:22px;
+    font-weight:900;
+    color:#0c7e0c;
+
+    box-shadow:
+        0 6px 18px rgba(0,0,0,0.45),
+        inset 0 -3px 6px rgba(255,255,255,0.8),
+        inset 0 -1px 2px rgba(0,0,0,0.25);
+}
+
+.pageWrapper{
+    margin-top:90px;
+    text-align:center;
+}
+
+/* Центральный блок */
+.contentBox{
+    max-width:900px;
+    margin:0 auto 40px;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+
+    font-size:18px;
+    line-height:1.6;
+
+    box-shadow:
+        0 12px 26px rgba(0,0,0,0.32),
+        inset 0 0 6px rgba(255,255,255,0.55);
+}
+
+h2{
+    font-size:28px;
+    font-weight:900;
+    margin-top:0;
+}
+
+h3{
+    margin-top:30px;
+    font-size:22px;
+    font-weight:800;
+    color:#0c7e0c;
+}
+
+/* Карточки поставок */
+.incomingCard{
+    background:#f3fff3;
+    border-radius:18px;
+    padding:20px 25px;
+    margin:20px auto;
+    text-align:left;
+
+    max-width:750px;
+
+    border-left:6px solid #1e9c1e;
+
+    box-shadow: 
+        0 6px 18px rgba(0,0,0,0.25),
+        inset 0 0 10px rgba(255,255,255,0.6);
+}
+
+.incomingCard h4{
+    margin:0;
+    font-size:20px;
+    font-weight:900;
+    color:#0c7e0c;
+}
+
+.incomingCard p{
+    margin:10px 0 0;
+    font-size:17px;
+    line-height:1.5;
+}
+
+/* Подвал */
+.footer{
+    margin-top:40px;
+    background:#e8ffe8;
+    padding:15px;
+    border-top:2px solid #17a317;
+    font-weight:700;
+    color:#0c7e0c;
+    text-align:center;
+}
+
+.viberLine{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+}
+
+.viberText{
+    color:#7F3FBF;
+    font-weight:900;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="topbar">VOLE MOTO</div>
+
+<div class="pageWrapper">
+
+    <div class="contentBox">
+
+        <h2>Очікувані Поставки</h2>
+
+        <p>
+        У цьому розділі ми публікуємо техніку, яка зараз у дорозі, на аукціонах або на складах Японії/Європи.  
+        Тут можна подивитися, що скоро з’явиться в продажу.
+        </p>
+
+        <!-- Пример карточки поставки -->
+        <div class="incomingCard">
+            <h4>📦 Honda CB400 Super Four — в дорозі</h4>
+            <p>
+            Статус: 🚢 Морем з Японії<br>
+            Орієнтовний прихід: 12–18 днів<br>
+            Пробіг: 23 000 км<br>
+            Стан: аукціонний бал 4.0<br>
+            Можна забронювати вже зараз.
+            </p>
+        </div>
+
+        <div class="incomingCard">
+            <h4>📦 Yamaha MT-07 — готується до відправки</h4>
+            <p>
+            Статус: 🏭 Склад Японія<br>
+            Відправка: планується через 3–5 днів<br>
+            Пробіг: 17 000 км<br>
+            Комплектація: ABS, Led, нова гума.
+            </p>
+        </div>
+
+        <div class="incomingCard">
+            <h4>📦 Kawasaki Ninja 650 — на аукціоні</h4>
+            <p>
+            Статус: 🔧 Очікуємо завершення торгів<br>
+            Дата аукціону: завтра<br>
+            Якщо ставка виграє — техніка прибуде через ~3 тижні.
+            </p>
+        </div>
+
+        <p style="margin-top:25px;">
+        Розділ буде регулярно оновлюватись.  
+        Можна додавати будь-які моделі — я вже налаштував стиль під автоматичні карточки.
+        </p>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    VOLE-MOTO • Контакти:<br>
+    📞 +3806342715925 <br>
+    <span class="viberLine">
+        <span class="viberText">VIBER</span> +380997558803
+    </span>
+    <br>Графік: 10:00–18:00
+</div>
+
+</body>
+</html>

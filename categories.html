@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>VOLE MOTO — Категорії Мото</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+/* Фон и базовый стиль */
+html, body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family:Arial, sans-serif;
+
+    background: linear-gradient(
+        to right,
+        #e4ffbf 0%,
+        #e4ffbf 12%,
+        #ffffff 50%,
+        #e4ffbf 88%,
+        #e4ffbf 100%
+    );
+}
+
+/* Верхний бар */
+.topbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+
+    background:#e8ffe8;
+    border-bottom:2px solid #17a317;
+    padding:10px 0;
+    text-align:center;
+
+    font-size:22px;
+    font-weight:900;
+    color:#0c7e0c;
+
+    box-shadow:
+        0 6px 18px rgba(0,0,0,0.45),
+        inset 0 -3px 6px rgba(255,255,255,0.8),
+        inset 0 -1px 2px rgba(0,0,0,0.25);
+}
+
+.pageWrapper{
+    margin-top:90px;
+    text-align:center;
+}
+
+/* Центральный блок */
+.contentBox{
+    max-width:900px;
+    margin:0 auto 40px;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+
+    font-size:18px;
+    line-height:1.6;
+
+    box-shadow:
+        0 12px 26px rgba(0,0,0,0.32),
+        inset 0 0 6px rgba(255,255,255,0.55);
+}
+
+h2{
+    font-size:28px;
+    font-weight:900;
+}
+
+.categoryList{
+    text-align:left;
+    max-width:700px;
+    margin:25px auto;
+}
+
+.categoryItem{
+    background:#f3fff3;
+    padding:15px 20px;
+    margin-bottom:12px;
+    border-radius:12px;
+
+    border-left:6px solid #1aa31a;
+
+    box-shadow:
+        0 6px 16px rgba(0,0,0,0.2),
+        inset 0 0 10px rgba(255,255,255,0.5);
+}
+
+.categoryItem b{
+    color:#0c7e0c;
+}
+
+/* Подвал */
+.footer{
+    margin-top:40px;
+    background:#e8ffe8;
+    padding:15px;
+    border-top:2px solid #17a317;
+    font-weight:700;
+    color:#0c7e0c;
+    text-align:center;
+}
+
+.viberLine{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+}
+
+.viberText{
+    color:#7F3FBF;
+    font-weight:900;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="topbar">VOLE MOTO</div>
+
+<div class="pageWrapper">
+
+    <div class="contentBox">
+
+        <h2>Категорії Мотоциклів</h2>
+
+        <p>
+        Тут ти знайдеш основні типи мотоциклів, їх призначення та для кого вони підходять.
+        </p>
+
+        <div class="categoryList">
+
+            <div class="categoryItem">
+                <b>Спортбайки</b><br>
+                Максимальна швидкість, швидка реакція, низька посадка.  
+                Підходять тим, хто хоче адреналіну та керованості.
+            </div>
+
+            <div class="categoryItem">
+                <b>Нейкеди</b><br>
+                Універсальні, легкі в керуванні, комфортні у місті.  
+                Ідеальні для новачків та щоденного їзду.
+            </div>
+
+            <div class="categoryItem">
+                <b>Турендуро</b><br>
+                Далекі поїздки, ґрунтовки, подорожі.  
+                Підходять тим, хто любить дороги з пригодами.
+            </div>
+
+            <div class="categoryItem">
+                <b>Круїзери</b><br>
+                Комфорт, низька посадка, спокійна їзда.  
+                Для розмірених поїздок та стилю.
+            </div>
+
+            <div class="categoryItem">
+                <b>Скутери</b><br>
+                Дуже прості, економічні, легкі в керуванні.  
+                Найкращий варіант для міста або першого транспорту.
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="footer">
+    VOLE-MOTO • Контакти:<br>
+    📞 +3806342715925 <br>
+
+    <span class="viberLine">
+        <span class="viberText">VIBER</span> +380997558803
+    </span>
+
+    <br>Графік: 10:00–18:00
+</div>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>VOLE MOTO — Мої Магазини та Замовлення</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+/* Фон */
+html, body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family:Arial, sans-serif;
+
+    background: linear-gradient(
+        to right,
+        #e4ffbf 0%,
+        #e4ffbf 12%,
+        #ffffff 50%,
+        #e4ffbf 88%,
+        #e4ffbf 100%
+    );
+}
+
+/* Верхний бар */
+.topbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+
+    background:#e8ffe8;
+    border-bottom:2px solid #17a317;
+    padding:10px 0;
+    text-align:center;
+
+    font-size:22px;
+    font-weight:900;
+    color:#0c7e0c;
+
+    box-shadow:
+        0 6px 18px rgba(0,0,0,0.45),
+        inset 0 -3px 6px rgba(255,255,255,0.8),
+        inset 0 -1px 2px rgba(0,0,0,0.25);
+}
+
+.pageWrapper{
+    margin-top:90px;
+    text-align:center;
+}
+
+/* Центральный блок */
+.contentBox{
+    max-width:900px;
+    margin:0 auto 40px;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+
+    font-size:18px;
+    line-height:1.6;
+
+    box-shadow:
+        0 12px 26px rgba(0,0,0,0.32),
+        inset 0 0 6px rgba(255,255,255,0.55);
+}
+
+h2{
+    font-size:28px;
+    font-weight:900;
+    margin-top:0;
+}
+
+h3{
+    margin-top:30px;
+    font-size:22px;
+    font-weight:800;
+    color:#0c7e0c;
+}
+
+/* Карточки магазинов / заказов */
+.shopCard{
+    background:#f3fff3;
+    border-radius:18px;
+    padding:20px 25px;
+    margin:20px auto;
+    text-align:left;
+
+    max-width:750px;
+
+    border-left:6px solid #1e9c1e;
+
+    box-shadow: 
+        0 6px 18px rgba(0,0,0,0.25),
+        inset 0 0 10px rgba(255,255,255,0.6);
+}
+
+.shopCard h4{
+    margin:0;
+    font-size:20px;
+    font-weight:900;
+    color:#0c7e0c;
+}
+
+.shopCard p{
+    margin:8px 0 0;
+    font-size:17px;
+    line-height:1.5;
+}
+
+/* Подвал */
+.footer{
+    margin-top:40px;
+    background:#e8ffe8;
+    padding:15px;
+    border-top:2px solid #17a317;
+    font-weight:700;
+    color:#0c7e0c;
+    text-align:center;
+}
+
+.viberLine{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+}
+
+.viberText{
+    color:#7F3FBF;
+    font-weight:900;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="topbar">VOLE MOTO</div>
+
+<div class="pageWrapper">
+
+    <div class="contentBox">
+
+        <h2>Мої Магазини та Замовлення</h2>
+
+        <p>
+        У цьому розділі буде зібрана інформація про точки продажу, формати замовлень та варіанти співпраці з VOLE-MOTO.  
+        Тут зручно зберігати адреси магазинів, контакти та опис, як оформити замовлення.
+        </p>
+
+        <h3>Формати замовлень</h3>
+
+        <div class="shopCard">
+            <h4>📞 Замовлення по телефону</h4>
+            <p>
+            Ти можеш подзвонити нам, уточнити наявність мотоцикла або екіпіровки, забронювати техніку чи товар до приїзду.
+            </p>
+        </div>
+
+        <div class="shopCard">
+            <h4>💬 Замовлення через Viber</h4>
+            <p>
+            Надсилаєш фото, побажання, приклади мотоциклів чи екіпіровки — ми підбираємо варіанти та надсилаємо тобі відповіді прямо в чат.
+            </p>
+        </div>
+
+        <div class="shopCard">
+            <h4>🏪 Замовлення на місці в салоні</h4>
+            <p>
+            Приїжджаєш у магазин, дивишся техніку наживо, консультуєшся, тестуєш — та оформлюєш покупку прямо на місці.
+            </p>
+        </div>
+
+        <h3>Магазини VOLE-MOTO</h3>
+
+        <div class="shopCard">
+            <h4>📍 Магазин №1</h4>
+            <p>
+            Адреса: тут можна буде вказати повну адресу магазину.<br>
+            Графік роботи: 10:00–18:00.<br>
+            Формат: мотоцикл + екіпіровка + енергетичні рішення.
+            </p>
+        </div>
+
+        <div class="shopCard">
+            <h4>📍 Магазин №2 / Склад / Шоурум</h4>
+            <p>
+            Тут можна буде додати окрему точку видачі, склад або ще один зал продажу — коли він з’явиться.
+            </p>
+        </div>
+
+        <p style="margin-top:25px;">
+        Надалі цей розділ можна розширювати: додати карту, фото магазинів, контакти менеджерів та статуси замовлень.
+        </p>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    VOLE-MOTO • Контакти:<br>
+    📞 +3806342715925 <br>
+    <span class="viberLine">
+        <span class="viberText">VIBER</span> +380997558803
+    </span>
+    <br>Графік: 10:00–18:00
+</div>
+
+</body>
+</html>
